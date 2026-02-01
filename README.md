@@ -1,4 +1,3 @@
-```markdown
 # n8n-easy
 
 這是一個在 **Windows 平台** 使用 **npm 安裝的本機 n8n 套件**，已內建 **Node.js**，並打包成 **7-ZIP 自解壓縮檔**。  
@@ -49,4 +48,3 @@
 - [Node.js](https://nodejs.org) （MIT License）  
 
 請依相關授權條款使用與再散佈。
-```
