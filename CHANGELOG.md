@@ -1,18 +1,25 @@
 # 📦 n8n-easy Release Notes
 
 ## v2.4.6 (對應n8n的版本)
-- 提供 **Windows 本機免安裝版 n8n**，已內建 Node.js 和 5 個 n8n 社群節點。
-- 使用 **7-ZIP 自解壓縮檔**，解壓縮後自動建立目錄：
   ```
   C:\n8nEasy
   ```
-- 內建啟動程式 `startfChartMenu.exe`，在工作列建立圖示，提供以下功能表命令：
   1. **啟動 n8n**：執行 `1_n8n_start-n8n.bat`，啟動服務並設定環境變數。
   2. **開啟 Web 介面**：啟動瀏覽器連線至 `http://localhost:5678`。
 
----
 
-## v2.2.6 (對應n8n的版本)
+## v2.7.2 (對應n8n的版本)
+- 升級內建 n8n 至 2.7.2 版本。
+- 新增社群節點：n8n-nodes-filemanager，支援檔案管理功能。
+- 保持 Windows 本機免安裝特性，內建 Node.js 與多個社群節點。
+- 提供 7-ZIP 自解壓縮檔，解壓後自動建立目錄：
+  ```
+  C:\n8nEasy
+  ```
+- 內建啟動程式 `startfChartMenu.exe`，於工作列建立圖示，提供以下功能表命令：
+  1. **啟動 n8n**：執行 `1_n8n_server.bat`，啟動服務並設定環境變數。
+  2. **開啟 Web 介面**：啟動瀏覽器連線至 `http://localhost:5678`。
+
 - 提供 **Windows 本機免安裝版 n8n**，已內建 Node.js 和 3 個 n8n 社群節點。
 - 使用 **7-ZIP 自解壓縮檔**，解壓縮後自動建立目錄：
   ```

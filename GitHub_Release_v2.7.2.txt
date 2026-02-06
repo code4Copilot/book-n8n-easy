@@ -1,0 +1,17 @@
+以下是將專案發佈到 GitHub Release 並與 n8n v2.7.2 版本號同步的步驟：
+
+確認本地專案已完成並提交所有更動。
+在本地建立 v2.7.2 標籤：
+
+git tag v2.7.2
+git push origin v2.7.2
+
+前往 GitHub 專案頁面，點選「Releases」→「Draft a new release」。
+選擇剛剛推送的 v2.7.2 標籤。
+填寫 Release 標題（如：v2.7.2）與說明（可複製 CHANGELOG.md 內容，建議註明：升級 n8n 至 2.7.2 並新增 n8n-nodes-filemanager 社群節點）。
+點選「Publish release」發佈。
+如需自動化，可使用 GitHub CLI：
+
+gh release create v2.7.2 --title "v2.7.2" --notes-file CHANGELOG.md
+
+請確認已安裝 GitHub CLI 並登入帳號。需要進一步自動化腳本或有其他細節需求請告知！
